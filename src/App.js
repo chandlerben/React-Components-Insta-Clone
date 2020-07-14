@@ -16,7 +16,7 @@ const App = () => {
   return (
     <div className="App">
       <SearchBar />
-      <PostsPage postData={posts} />
+      <PostsPage />
     </div>
   );
 };
