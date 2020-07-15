@@ -3,6 +3,7 @@ Start here and work your way down the nested components.
 Not all files in the project need code added.
 Look at each file to see what props need to be passed.
 */
+import SearchBar from "./components/SearchBar/SearchBar";
 
 // Import the state hook
 import React from "react";
@@ -25,6 +26,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <SearchBar />
       {/* Add SearchBar and Posts here to render them */}
       {/* Check the implementation of each component, to see what props they require, if any! */}
     </div>
