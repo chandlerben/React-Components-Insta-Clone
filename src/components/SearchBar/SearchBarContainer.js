@@ -1,5 +1,6 @@
 // You do not need to change any code in this file
 import React from "react";
+
 import "./SearchBar.css";
 
 const SearchBar = () => {
@@ -7,7 +8,8 @@ const SearchBar = () => {
     <div className="search-bar-wrapper">
 
       <div className="image-wrapper">
-        <i className="fab fa-instagram" />
+        <img className="fab fa-instagram" src="../../assets/instagram-logo-concept.jpg" alt="instagram logo" />
+
       </div>
       <form className="search-form">
         <input
